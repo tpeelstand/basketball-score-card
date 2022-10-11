@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div id="home" class="score">0</div>
+            <button class="score-btn" onclick="homeOne()">+1</button>
+            <button class="score-btn" onclick="homeTwo()">+2</button>
+            <button class="score-btn" onclick="homeThree()">+3</button>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <div id="guest"  class="score">0</div>
+            <button class="score-btn" onclick="guestOne()">+1</button>
+            <button class="score-btn" onclick="guestTwo()">+2</button>
+            <button class="score-btn" onclick="guestThree()">+3</button>
+        </div>
+    </div>
+    <div class="reset-contianer">
+        <button class="reset-btn" onclick="resetScores()">Rest Game Score</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
